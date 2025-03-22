@@ -1,4 +1,3 @@
-import 'package:eduplift/screens/learner_dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'signup_screen.dart';
