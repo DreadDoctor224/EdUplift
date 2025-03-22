@@ -7,6 +7,9 @@ import 'package:eduplift/screens/educator_dashboard.dart';
 import 'package:eduplift/screens/learner_dashboard.dart';
 import 'package:eduplift/screens/graduate_dashboard.dart';
 import 'package:eduplift/screens/upload_resource_screen.dart';
+import 'package:eduplift/screens/eduplift_feed_screen.dart';
+import 'package:eduplift/screens/profile_screen.dart';
+import 'package:eduplift/screens/resource_view_screen.dart';
 // Ensure this file exists in lib/screens/
 
 void main() {
@@ -26,7 +29,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home:
-          const UploadResourceScreen(), // ✅ Ensures app starts with Login Screen
+          const EdupliftFeedScreen(), // ✅ Ensures app starts with Login Screen
     );
   }
 }

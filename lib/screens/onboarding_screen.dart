@@ -38,7 +38,7 @@ class OnboardingScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 30),
               child: Text(
-                "A smarter way to learn and teach. Get personalized courses, AI-powered assessments, and gamified challenges!",
+                "A smarter way to learn and teach. a pirate bay for education",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 16, color: Colors.white70),
               ),
