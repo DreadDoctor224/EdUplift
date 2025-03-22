@@ -1,6 +1,12 @@
 import 'package:eduplift/screens/educator_dashboard.dart';
 import 'package:eduplift/screens/graduate_dashboard.dart';
 import 'package:flutter/material.dart';
+import 'package:eduplift/screens/login_screen.dart';
+import 'package:eduplift/screens/signup_screen.dart';
+import 'package:eduplift/screens/educator_dashboard.dart';
+import 'package:eduplift/screens/learner_dashboard.dart';
+import 'package:eduplift/screens/graduate_dashboard.dart';
+import 'package:eduplift/screens/upload_resource_screen.dart';
 // Ensure this file exists in lib/screens/
 
 void main() {
@@ -19,7 +25,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const GraduateDashboard(), // ✅ Ensures app starts with Login Screen
+      home:
+          const UploadResourceScreen(), // ✅ Ensures app starts with Login Screen
     );
   }
 }
