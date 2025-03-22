@@ -1,3 +1,4 @@
+import 'package:eduplift/admin_dashboard.dart';
 import 'package:eduplift/screens/educator_dashboard.dart';
 import 'package:eduplift/screens/graduate_dashboard.dart';
 import 'package:flutter/material.dart';
